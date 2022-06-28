@@ -1,0 +1,237 @@
+body {
+    background-color: #ffffff;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    max-width: 980px;
+    max-height: 153px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6a0ec0;
+}
+
+.logo_cats {
+    height: 153px;
+    margin: 0px auto;
+}
+
+.nav_ul {
+    display: flex;
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+h3 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    margin: 15px;
+}
+
+hr {
+    height: 5px;
+    color: #6a0ec0;
+    border: none;
+    background-color: #6a0ec0;
+    margin: 5px 0px;
+}
+
+.text {
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.text p {
+    margin: 15px;
+}
+
+.aboutImg {
+    width: 100%;
+}
+
+.video {
+    width: 100%;
+    height: 500px;
+}
+
+
+.catcard {
+    margin: 15px;
+    display: flex;
+}
+
+.catcard p {
+    margin: 5px 0px;
+}
+
+.catcardimg {
+    margin: 15px;
+    max-width: 40%;
+
+}
+
+footer {
+    display: flex;
+    height: 250px;
+    background-color: #6a0ec0;
+    color: #ffffff;
+
+}
+
+
+.footer_cats {
+    height: 250px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.footer_text p {
+    font-size: 14px;
+}
+
+footer iframe {
+    margin: 0px 15px 0px 0px;
+}
+
+.socsite {
+    width: 50px;
+    margin: 0px 5px;
+}
+
+
+
+
+
+@media (min-width: 750px) {
+
+    .nav-link {
+        background-color: #6a0ec0;
+        border-radius: 40px;
+        color: #ffffff;
+        text-align: center;
+        width: 190px;
+        height: 50px;
+        list-style-type: none;
+        margin: auto;
+
+    }
+
+    h1 {
+        font-family: 'Courier Prime', monospace;
+        ;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 48px;
+        color: #ffffff;
+        margin: 15px 20px;
+    }
+
+    h2 {
+        font-family: 'Courier Prime', monospace;
+        font-weight: 700;
+        font-size: 26px;
+        color: #ffffff;
+        margin: 15px;
+    }
+
+    p {
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+
+    a {
+        font-family: 'Courier Prime', monospace;
+        font-size: 24px;
+        margin-bottom: auto;
+        margin-top: auto;
+        line-height: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .footer_cats {
+        height: 250px;
+
+    }
+}
+
+@media (max-width: 749px) {
+
+    .nav-link {
+        background-color: #6a0ec0;
+        border-radius: 40px;
+        color: #ffffff;
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        list-style-type: none;
+        margin: auto;
+
+    }
+
+    h1 {
+        font-family: 'Courier Prime', monospace;
+        ;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 36px;
+        color: #ffffff;
+        margin: 10px 15px;
+    }
+
+    h2 {
+        font-family: 'Courier Prime', monospace;
+        font-weight: 700;
+        font-size: 18px;
+        color: #ffffff;
+        margin: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+
+    a {
+        font-family: 'Courier Prime', monospace;
+        font-size: 18px;
+        margin-bottom: auto;
+        margin-top: auto;
+        line-height: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .footer_text p {
+    font-size: 10x;
+}
+
+    .footer_cats {
+        height: 100px;
+        margin-bottom: 0px;
+        margin-top: auto;
+    }
+        .socsite {
+    width: 40px;
+    margin: 0px 5px;
+}
+    }
+}
+
+
+/*.header_text{ для екрану поменш 
+    z-index: 99;
+    position: absolute;
+    top: 1%;
+    right: 27%;
+}*/
+
+
